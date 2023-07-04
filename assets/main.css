@@ -41,7 +41,7 @@ h1 , .card .fa-brands, .card .fa-solid  {
     border-radius: .625rem .625rem 0 0
 }
 a{
-    text-decoration: none !important;
+    text-decoration: none !important ;
 
 }
 
@@ -74,4 +74,11 @@ a{
     .contact-form__wrapper {
         padding: 5rem !important
     }
+}
+@media screen and (max-width:600px) {
+    .footer{
+        font-size: 10px !important;
+      
+    }
+    
 }
