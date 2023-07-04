@@ -1,56 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./assets/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- navigation-start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./assets/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <!-- navigation-start -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-lg   ">
+    <div class="container-fluid ">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center  " id="navbarNav">
+
+        <ul class="navbar-nav text-center  fw-bolder ">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
     <!-- navigation-end -->
    <!-- container-start -->
     <div class="container ">
        <!-- home-start -->
-      <div class="row py-5 my-5 align-items-center">
-        <div class="col col-md-6  border-start border-black text-start">
+      <div class="row py-5   align-items-center" id="home">
+        <div class=" col-md-6 col-sm-12 order-md-1 order-sm-2  my-0 my-sm-4 border-start border-black text-start">
   
    <h1>
     <span  class="fs-6 text-secondary">hello,  i am</span> <br>
      Web developer </h1>
    <h2>Avvi Mehra</h2>
    <p>As a freelancer, I am passionate about delivering high-quality work and making a positive impact for my clients.</p>
-   <button type="button" class="btn btn-primary" >Contact</button>
+   <button type="button"  class="btn btn-primary" > <a href="#contact">Contact</a></button>
         </div>
-        <div class="col col-md-6 ">
-          <img src="./assets/images/hero.jpg" width="500px" class="" alt="...">
+        <div class=" col-md-6 col-sm-12 order-md-2 order-sm-1 ">
+          <img src="./assets/images/hero.jpg"  class="w-100 " alt="...">
           
         </div>
       
@@ -59,42 +60,45 @@
 
 <!-- home-end -->
 <!-- about-start -->
-<div class="row  py-5 my-5 ">
+<div class="row   py-5  p-4 " id="about">
   <h2 class="text-center py-5">About me</h2>
   <div class="col-md-6 align-items-center p-3">
     <h2>Passionate Freelance Web Developer</h2>
   <p>As a freelancer, I am passionate about delivering exceptional web development solutions. With expertise in HTML, CSS, JavaScript, and WordPress, I provide tailored websites from scratch. I excel at problem-solving, ensuring optimal performance and responsive design. Let's collaborate to create a stunning and user-friendly website for your business.</p>
 
   <ul class="list-unstyled  social-link">
-    <button type="button" class="btn btn-primary">Dawnload resume</button>
-    <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a></li>
-    <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a></li>
-    <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a></li>
+    <button type="button" class="btn btn-primary" 
+    >
+    <a href="https://drive.google.com/file/d/17PO8DGFZa-bPPiTTrMr3xxnQ-AC5BCF1/view?usp=drive_link"  target="_blank" dawnload>    Dawnload resume</a>
+</button>
+    <li><a href="https://www.instagram.com/avtarmehra01/" target="_blank" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://twitter.com/Avvimehra01" target="_blank" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a></li>
+    <li><a href="https://wa.me/+91-9784048184" target="_blank" class="text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a></li>
   </ul>
   </div>
-  <div class="col-md-6">
-    <div>html</div>
+  <div class="col-md-6 p-5">
+    <div class="pt-2">html</div>
     <div class="progress ">
 
-      <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+      <div class="progress-bar" role="progressbar" style="width: 90%; " aria-valuenow="90" aria-valuemin="0"
         aria-valuemax="100">90%</div>
         
     </div>
-    <div class="pt-1">css</div>
+    <div class="pt-2">css</div>
     <div class="progress">
 
       <div class="progress-bar" role="progressbar" style="width: 89%;" aria-valuenow="89" aria-valuemin="0"
         aria-valuemax="100">89%</div>
         
     </div>
-    <div class="pt-1">javscript</div>
+    <div class="pt-2">javscript</div>
     <div class="progress">
 
       <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
         aria-valuemax="100">85%</div>
         
     </div>
-    <div class="pt-1">Wordpress</div>
+    <div class="pt-2">Wordpress</div>
     <div class="progress">
 
       <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0"
@@ -108,32 +112,32 @@
 <!-- about-end -->
 <!-- do-start -->
 
-<div class="row py-5">
-  <h2 class="text-center">what i do</h2>
-  <div class="col-4"><div class="card text-center ">
+<div class="row py-5 ">
+  <h2 class="text-center py-5 " id="skill">what i do</h2>
+  <div class="col-md-4 col-sm-12 my-0 my-sm-4"><div class="card border-0 shadow py-3  text-center ">
     <div class="card-body">
      
-        <i class="fa-solid fa-code"></i>
+        <i class="fa-solid fa-code py-3"></i>
         <h5 class="card-title "> Web development
       </h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
     </div>
   </div></div>
-  <div class="col-4"><div class="card text-center ">
+  <div class="col-md-4 col-sm-12 my-0 my-sm-4"><div class="card border-0 shadow py-3  text-center ">
     <div class="card-body">
      
-        <i class="fa-solid fa-code"></i>
+      <i class="fa-brands py-3  fa-wordpress"></i>
         <h5 class="card-title "> Wordpress 
       </h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
     </div>
   </div></div>
-  <div class="col-4"><div class="card text-center ">
+  <div class="col-md-4 col-sm-12 my-0 my-sm-4"><div class="card border-0 shadow py-3  text-center ">
     <div class="card-body">
      
-        <i class="fa-solid fa-code"></i>
+      <i class="fa-solid py-3  fa-bug-slash"></i>
         <h5 class="card-title "> bug fix
       </h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -147,38 +151,38 @@
 
 
 
+</div>
 
-
-
+<div class="container-fluid ">
 <!-- hire-start -->
-<div class="row text-center py-5 my-5">
+<div class="row hire text-capitalize text-center text-light py-5 my-5">
 
   <div class="card-body">
-    <h5 class="card-title">do you have any project ?</h5>
-    <p class="card-text">i am availabe for freelancer projects</p>
-    <a href="#" class="btn btn-primary">Hire me</a>
+    <p class="card-title">do you have any project ?</p>
+    <h5 class="card-text">i am availabe for freelancer projects</h5>
+    <a href="#" class="btn btn-primary  shadow-lg border border-white ">Hire me</a>
   </div>
 </div>
 <!-- hire-end -->
-
-
+</div>
+<div class="container">
 <!-- contact-start -->
-<div class="contact__wrapper  mt-n9">
+<div class="contact__wrapper  mt-n9" id="contact">
   <div class="row no-gutters">
       <div class="col-lg-5 contact-info__wrapper  p-5 ">
           <h3 class="color--white mb-5">Contact</h3>
 
           <ul class="contact-info__list list-style--none position-relative z-index-101">
               <li class="mb-4 pl-4">
-                  <span class="position-absolute"><i class="fas fa-envelope"></i></span> test@test.com
+                  <span class="position-absolute"><i class="fas fa-envelope"></i></span> asm80717+web@gmail.com
               </li>
               <li class="mb-4 pl-4">
-                  <span class="position-absolute"><i class="fas fa-phone"></i></span> +32 71 123 456
+                  <span class="position-absolute"><i class="fas fa-phone"></i></span> +91 9784048184
               </li>
               <li class="mb-4 pl-4">
-                  <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> E6K
-                  <br> Quai de la gare
-                  <br> 6000 Charleroi
+                  <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> ward no.04 ,
+                  <br> Premnagar ,<br>Anupgarh
+                  
 
                   <div class="mt-3">
                       <a href="https://www.google.com/maps" target="_blank" class="text-link link--right-icon text-white">Itinéraire <i class="link__icon fa fa-directions"></i></a>
@@ -186,17 +190,7 @@
               </li>
           </ul>
 
-          <figure class="figure position-absolute m-0 opacity-06 z-index-100" style="bottom:0; right: 10px">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444px" height="626px">
-                  <defs>
-                      <linearGradient id="PSgrad_1" x1="0%" x2="81.915%" y1="57.358%" y2="0%">
-                          <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"></stop>
-                          <stop offset="100%" stop-color="rgb(0,54,207)" stop-opacity="0"></stop>
-                      </linearGradient>
-
-                  </defs>
-              </svg>
-          </figure>
+        
       </div>
 
       <div class="col-lg-7 contact-form__wrapper p-5">
@@ -204,14 +198,14 @@
               <div class="row">
                   <div class="col-sm-6 mb-3">
                       <div class="form-group">
-                          <label class="required-field" for="firstName">Prénom</label>
+                          <label class="required-field" for="firstName">First Name</label>
                           <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Jean">
                       </div>
                   </div>
 
                   <div class="col-sm-6 mb-3">
                       <div class="form-group">
-                          <label for="lastName">Nom</label>
+                          <label for="lastName">Last Name</label>
                           <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Dupont">
                       </div>
                   </div>
@@ -225,20 +219,20 @@
 
                   <div class="col-sm-6 mb-3">
                       <div class="form-group">
-                          <label for="phone">Téléphone</label>
+                          <label for="phone">Mobile </label>
                           <input type="tel" class="form-control" id="phone" name="phone" placeholder="+32 71 123 456">
                       </div>
                   </div>
 
                   <div class="col-sm-12 mb-3">
                       <div class="form-group">
-                          <label class="required-field" for="message">Comment pouvons-nous vous aider ?</label>
-                          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Bonjour, j'aimerais…"></textarea>
+                          <label class="required-field" for="message">Message</label>
+                          <textarea class="form-control" id="message" name="message" rows="4" placeholder=""></textarea>
                       </div>
                   </div>
 
                   <div class="col-sm-12 mb-3">
-                      <button type="submit" name="submit" class="btn btn-primary">Envoyer</button>
+                      <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                   </div>
 
               </div>
@@ -251,8 +245,19 @@
 <!-- contact-end -->
 
 
-</div>   <!-- container-start -->
+</div>   <!-- container-end -->
 
+<div class="container-fluid ">
+  <!-- footer-start -->
+  <div class="row footer text-capitalize bg-dark text-center text-light py-2 mt-5">
+  
+    <div class="card-body">
+      <p class="card-title">  <p>Copyright &copy; 2023  All Rights Reserved.</p></p>
+      
+    </div>
+  </div>
+  <!-- footer-end -->
+  </div>
 
 
 

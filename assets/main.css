@@ -1,14 +1,28 @@
 html{
+    scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+.btn-primary, .hire{
     background-color: #DC3545 !important;
    border: 0 !important ;
 
 }
-h1{
+button a{
+    text-decoration: none;
+    color: white;
+}
+a{
+   
+    cursor:  pointer !important;
+}
+.progress-bar{
+    background-color: #DC3545 !important;
+    color: white;
+}
+h1 , .card .fa-brands, .card .fa-solid  {
     color: #DC3545 !important;
 }
+
 .social-link li{
     
     align-items: center;
