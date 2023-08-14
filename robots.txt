@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://avtarmehra01.netlify.app/sitemap.xml
+Sitemap: https://wpcraftedsite.in/sitemap.xml
