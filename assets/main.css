@@ -44,6 +44,8 @@ a{
     text-decoration: none !important ;
 
 }
+.girl{margin-top: -90px; filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.393));
+}
 
 @media (min-width: 1024px) {
     .contact-info__wrapper {
@@ -80,6 +82,17 @@ a{
         font-size: 10px !important;
       
     }
+        .logo{
+            width: 50px;
+          
+        }
+        .girl{
+            
+            margin: auto;
+            
+
+        }
+     
     
 }
 .social-link li i:hover{
