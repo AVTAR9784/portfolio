@@ -345,10 +345,7 @@ body{background-color:#eee;}
 		margin-bottom:75px;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-@media (min-width: 1200px) {
-}
+
 #generic_price_table_home{
 	 font-family: 'Raleway', sans-serif;
 }
@@ -510,4 +507,15 @@ body{background-color:#eee;}
 	background-color: #666;
 	color: #FFF;
 	text-decoration:none;
+}
+.butterfly{
+	width: 150px; ; position: relative; top: -5vh;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 80px) and (max-width: 780px) {
+	.butterfly{ 
+
+		width: 50px;  position: relative;
+	}
 }
