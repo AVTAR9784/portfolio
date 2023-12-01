@@ -519,3 +519,10 @@ body{background-color:#eee;}
 		width: 50px;  position: relative;
 	}
 }
+.active{
+	color: #E74C3C !important;
+}
+a:hover{
+	color: #E74C3C !important;
+	transform: scale(1.2);
+}
