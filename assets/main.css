@@ -13,14 +13,14 @@
   
   /* Handle (thumb) of the scrollbar */
   ::-webkit-scrollbar-thumb {
-	background: #DC3545;
-	border: 2px solid black;
+	background:#40356E;
+	
 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: #DC3545;
+	background:#40356E;
   }
   /* webkit css end  */
 html{
@@ -28,7 +28,7 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary, .hire{
-    background-color: #DC3545 !important;
+    background-color:#40356E !important;
    border: 0 !important ;
 
 }
@@ -40,14 +40,18 @@ a{
    
     cursor:  pointer !important;
 }
+.btn:hover,a:hover , .btn-primary:hover , a{	color:rgb(255, 255, 255) !important;
+}
 .progress-bar{
-    background-color: #DC3545 !important;
+    background-color:#40356E !important;
     color: white;
 }
-h1 , .card .fa-brands, .card .fa-solid  {
-    color: #DC3545 !important;
+h1 ,h2, .card .fa-brands, .card .fa-solid  {
+    color:#40356E !important;
 }
-
+h2{
+	font-weight: 900;
+}
 .social-link li{
     
     align-items: center;
@@ -121,7 +125,7 @@ a{
     
 }
 .social-link li i:hover{
-    color:red;
+    color:#40356E;
     transform: scale(1.2);
 }/* ======================== */
 /*   Syed Sahar Ali Raza   	*/
@@ -177,17 +181,17 @@ body{background-color:#eee;}
 }
 #generic_price_table .generic_content .generic_feature_list ul li:hover{
 	background-color: #E4E4E4;
-	border-left: 5px solid red;
+	border-left: 5px solid #40356E;
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-	border: 1px solid red1; 
-    color: red;
+	border: 1px solid #40356E1; 
+    color: #40356E;
 } 
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-	border-color:red rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) red;
+	border-color:#40356E rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #40356E;
 	color: #fff;
 }
 
@@ -198,7 +202,7 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-	background-color:red;
+	background-color:#40356E;
 	color: #fff;
 } 
 #generic_price_table{
@@ -432,7 +436,7 @@ body{background-color:#eee;}
 	background: #9B59B6;
 	transition: all 0.3s ease-in-out 0s;
 }
-#generic_price_table_home .red{
+#generic_price_table_home .#40356E{
 	background: #E74C3C;
 	transition:all 0.3s ease-in-out 0s;
 }
@@ -447,7 +451,7 @@ body{background-color:#eee;}
 #generic_price_table_home .midnight:hover,
 #generic_price_table_home .orange:hover,
 #generic_price_table_home .purple:hover,
-#generic_price_table_home .red:hover,
+#generic_price_table_home .#40356E:hover,
 #generic_price_table_home .turquoise:hover{
 	border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -535,7 +539,7 @@ body{background-color:#eee;}
 }
 
 .active{
-	color: #E74C3C !important;
+	color: #40356E !important;
 }
 a:hover{
 	color: #000000 !important;
