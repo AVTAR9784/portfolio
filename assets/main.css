@@ -4,6 +4,8 @@
 ::-webkit-scrollbar {
 	width: 12px;
 	height: 12px;
+  }.fa-bars-staggered{
+	color: #40356E !important;
   }
   
   /* Track (background) of the scrollbar */
