@@ -2,5 +2,6 @@
 User-agent: *
 Disallow: /privacy
 Disallow: /Term
+Disallow: /web-developer-contact-number
 Disallow: /cgi-bin/
 Sitemap: https://wpcraftedsite.in/sitemap.xml
